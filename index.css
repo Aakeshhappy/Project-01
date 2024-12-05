@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dosis:wght@200..800&family=DynaPuff:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=M+PLUS+Rounded+1c&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nabla&family=Pacifico&family=Parkinsans:wght@300..800&family=Playwrite+HR+Lijeva:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap');
+
+.varela-round-regular {
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url(bg.jpg)
+}
+
+img {
+    height: 30px;
+    width: auto;
+}
+
+nav li {
+    float: right;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    font-family: Varela Round;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:active{
+    background: linear-gradient(#427ef5, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav a:hover{
+    background: linear-gradient(#427ef5, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
